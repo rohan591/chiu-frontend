@@ -49,12 +49,12 @@ const App = () => {
   ];
 
   // const galleryImages = [
-  //   "https://images.unsplash.com/photo-1621454523226-eb4f392c8475?auto=format&fit=crop&q=80&w=300",
-  //   "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&q=80&w=300",
-  //   "https://images.unsplash.com/photo-1503919919749-646ddc46afe1?auto=format&fit=crop&q=80&w=300",
-  //   "https://images.unsplash.com/photo-1533512930330-4ac257c86793?auto=format&fit=crop&q=80&w=300",
-  //   "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&q=80&w=300",
-  //   "https://images.unsplash.com/photo-1471286174890-9c112ffca5b4?auto=format&fit=crop&q=80&w=300",
+  //   "/images/catalog/Festive-Frock-02.png",
+  //   "/images/catalog/Red-Paithani-Frock-02.png",
+  //   "/images/catalog/Blue-Princess-Frock-02.png",
+  //   "/images/catalog/Punjabi-Dress-02.png",
+  //   "/images/catalog/Summer-Bloom-02.png",
+  //   "/images/catalog/Yellow-Princess-Frock_02.png",
   // ];
 
   return (
