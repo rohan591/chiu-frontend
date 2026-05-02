@@ -140,7 +140,7 @@ const App = () => {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-[#831843] mb-1 font-marathi">{item.name}</h3>
-                  <p className="text-[#F472B6] font-bold text-lg mb-4">किंमत: {item.price} पासून</p>
+                  {/* <p className="text-[#F472B6] font-bold text-lg mb-4">किंमत: {item.price} पासून</p> */}
                   <a href={whatsappLink}>
                     <button className="w-full py-3 rounded-xl border border-pink-100 text-pink-500 font-bold bg-pink-50 flex items-center justify-center gap-2">
                       <MessageCircle size={18} />
