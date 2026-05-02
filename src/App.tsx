@@ -34,16 +34,16 @@ const SectionHeading = ({ title, subtitle, light = false }) => (
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const whatsappNumber = "919000000000"; // Replace with real number
+  const whatsappNumber = "919890976047"; // Replace with real number
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=नमस्कार, मला तुमच्या ड्रेसेस बद्दल अधिक माहिती हवी आहे.`;
 
   const products = [
-    { id: 1, name: "Yellow Princess Frock", price: "₹७९९", img: "/images/catalog/Yellow-Princess-Frock_02.png" },
-    { id: 2, name: "Summer Bloom", price: "₹१२९९", img: "/images/catalog/Summer-Bloom-02.png" },
-    { id: 3, name: "Red Paithani Frock", price: "₹६५०", img: "/images/catalog/Red-Paithani-Frock-02.png" },
-    { id: 4, name: "Punjabi Dress", price: "₹९५०", img: "/images/catalog/Punjabi-Dress-02.png" },
     { id: 5, name: "Festive Frock", price: "₹९५०", img: "/images/catalog/Festive-Frock-02.png" },
+    { id: 3, name: "Red Paithani Frock", price: "₹६५०", img: "/images/catalog/Red-Paithani-Frock-02.png" },
     { id: 6, name: "Blue Princess Frock", price: "₹९५०", img: "/images/catalog/Blue-Princess-Frock-02.png" },
+    { id: 4, name: "Punjabi Dress", price: "₹९५०", img: "/images/catalog/Punjabi-Dress-02.png" },
+    { id: 2, name: "Summer Bloom", price: "₹१२९९", img: "/images/catalog/Summer-Bloom-02.png" },
+    { id: 1, name: "Yellow Princess Frock", price: "₹७९९", img: "/images/catalog/Yellow-Princess-Frock_02.png" },
     { id: 7, name: "Aqua Paithani Frock", price: "₹९५०", img: "/images/catalog/Aqua-Paithani-Frock-02.png" },
     { id: 8, name: "Casual Long Gown", price: "₹९५०", img: "/images/catalog/Casual-Long-Gown-02.png" },
   ];
@@ -287,7 +287,7 @@ const App = () => {
               </Button>
             </a>
             <p className="flex items-center gap-2 opacity-80">
-              <Phone size={18} /> संपर्क: +91 90000 00000
+              <Phone size={18} /> संपर्क: +91 98909 76047
             </p>
           </div>
         </div>
@@ -301,7 +301,7 @@ const App = () => {
             <h4 className="text-xl font-bold text-white mb-4 font-marathi">संपर्क करा</h4>
             <ul className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-10">
               <li className="flex items-start gap-3"><MapPin className="mt-1 flex-shrink-0" size={18} />जयसिंगपुर, महाराष्ट्र - 416101</li>
-              <li className="flex items-center gap-3"><Phone size={18} /> +91 90000 00000</li>
+              <li className="flex items-center gap-3"><Phone size={18} /> +91 98909 76047</li>
               <li className="flex items-center gap-3"><Clock size={18} /> सकाळी १० ते रात्री ८</li>
             </ul>
           </div>
