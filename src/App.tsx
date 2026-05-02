@@ -6,7 +6,7 @@ import {
 // --- Utility Components ---
 
 const Button = ({ children, className = "", onClick, variant = "primary" }) => {
-  const baseStyles = "flex items-center justify-center gap-2 px-6 py-4 rounded-full font-bold transition-all active:scale-95 shadow-lg text-lg";
+  const baseStyles = "flex items-center justify-center gap-2 px-6 py-4 rounded-full font-bold transition-all active:scale-95 shadow-lg md:text-lg";
   const variants = {
     primary: "bg-[#F472B6] text-white hover:bg-[#db2777]",
     whatsapp: "bg-[#25D366] text-white hover:bg-[#128C7E]",
@@ -281,7 +281,7 @@ const App = () => {
           </p>
           <div className="flex flex-col justify-center items-center gap-6">
             <a href={whatsappLink} className="flex flex-col justify-center items-center gap-6 w-full sm:w-auto scale-110">
-              <Button variant="whatsapp" className="md:w-full !px-12 !py-5">
+              <Button variant="whatsapp" className="md:w-full !px-6 !py-4">
                 <MessageCircle size={28} />
                 WhatsApp वर चॅट करा
               </Button>
@@ -310,7 +310,7 @@ const App = () => {
             <h3 className="text-2xl font-bold text-white mt-8 mb-4 font-marathi">Chiu Boutique</h3>
             <p className="mb-4">"तुमच्या चिमुकल्यांसाठी" - एक विश्वासार्ह ब्रँड जिथे आम्ही तुमच्या स्वप्नातील ड्रेस वास्तवात आणतो.</p>
             <div className="flex justify-center items-center gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#F472B6] transition-colors"><Instagram size={20} /></a>
+              <a href="https://www.instagram.com/chiu.boutique/" target="_blank" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#F472B6] transition-colors"><Instagram size={20} /></a>
               <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#F472B6] transition-colors"><MessageCircle size={20} /></a>
             </div>
           </div>
